@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(196, 255, 254);
+    padding-bottom: 3%;
+}
+.tictactoe{
+    color:  rgb(46, 47, 92);
+    font-size: 3rem;
+    text-shadow:  0rem .2rem .2rem  rgb(3, 93, 237);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    padding: 2rem 0rem  1rem 0rem;
+}
+.playground{
+    display: flex;
+    align-items: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.tictac{
+    background:  rgb(70, 110, 148);
+    padding: 2rem;
+    border-radius: .5rem;
+    margin-right: 10%;
+}
+.grid{
+    display: grid;
+    background-color: white;
+    grid-template-rows: repeat(3,8vw);
+    grid-template-columns: repeat(3,8vw);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    border: .1rem solid rgb(33, 24, 24);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(130, 130, 128);
+}
+.card{
+    width:30%;
+    padding: 0% 1% 0% 1%;
+    margin-right: 10%;
+}
+.card-header{
+    font-size: 1.5rem;
+    text-shadow:  0px 0px 8px rgb(132, 158, 129);
+    padding: 1rem;
+    text-align: center;
+}
+.card-body{
+    font-size: 1.2rem;
+    font-style: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-img-top img{
+    width: 0;
+    transition: width is ease-in-out;
+}
